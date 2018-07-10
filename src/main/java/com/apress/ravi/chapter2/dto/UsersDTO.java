@@ -27,7 +27,6 @@ public class UsersDTO {
 	@Column(name = "ADDRESS")
 	private String address;
 
-
 	@Email(message = "error.email.email")
 	@NotEmpty(message = "error.email.empty")
 	@Length(max = 80, message = "error.email.length")
